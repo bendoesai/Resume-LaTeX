@@ -1,0 +1,98 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\usepackage{setspace}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Ben Brown} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+1(484) 788-3226 \\ Rochester, NY} 
+\address{
+\href{brown.ben.2019@gmail.com}{brown.ben.2019@gmail.com} \\
+\href{https://linkedin.com/in/bendoesai}{linkedin.com/in/bendoesai}}  
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{OBJECTIVE}
+{Passionately motivated electrical engineer seeking full-time, fast-paced, cross-disciplinary work combining Aritificial Intelligence, Statistics, and Ethics in a research setting\@ {\bf \\Available post-graduation in May 2024}
+}
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Bachelor of Electrical Engineering}, Rochester Institute of Technology \hfill {Expected 2024}\\
+{\bf GPA:} 3.04
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Software & Python, PyTorch, TensorFlow/Keras,
+Jupyter, C/C++, MATLAB, Assembly (MSP430), React
+\\
+Hardware & 
+Circuit Analysis (AC/DC),
+SMT/THT Soldering,
+PCB Design (Altium),
+Verilog/VHDL
+
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{EXPERIENCE}
+\textbf{Research Assistant} \hfill Aug 2023 - Present\\
+DeFake Project \hfill \textit{Rochester, NY}
+\begin{itemize}
+\itemsep-3pt {}
+    \item Wrote scalable, modular \textbf{PyTorch} framework for variable-scale testing of \textbf{DeepFake detection} algorithms to investigate the security of visual media
+    \item Collected data on several adversarial attacks for DeepFake detectors and generators to determine vulnerabilities in common deepfake detection architectures
+\end{itemize}
+
+\textbf{Electrical Intern D} \hfill Jan 2023 - Aug 2023\\
+L3Harris Technologies \hfill \textit{Rochester, NY}
+\begin{itemize}
+\itemsep-3pt {}
+    \item Produced largest hardware prototyping run seen by sector in record time in a non-production facility
+    \item Wrote complete \textbf{Python} test suite to automate hardware checks after testing, increasisng efficiency by 57\%
+    \item Wrote procedures, \textbf{Python/C/C++}, and reports for small scale testing
+    \item used oscilliscopes, multimeters, and soldering to debug and repair failing units
+    \item Immersed myself in management literature (\textbf{Sprint, Six Hats}) to improve my leadership and communication
+\end{itemize}
+
+    \textbf{Electrical Intern (ML/AI)} \hfill Jan 2022 - Aug 2022\\
+TIMET Morgantown \hfill \textit{Morgantown, PA}
+ \begin{itemize}
+    \itemsep-3pt {}
+     \item Collaborated with several groups in producing technology that simultaneously simplifies operator’s jobs, and potentially saves the company seven figures annually
+     \item Employed several Time Series prediction technologies, including fundamentals \textbf{(RNN, LSTM, GRU)} and state of the art \textbf{(SCINet, FEDformer)} to estimate chemical profile of furnace contents and ensure melt quality
+     \item Advocated for ethical implementation of technological tools to prevent reckless worker displacement
+     \item Designed custom genetic algorithm to optimize \textbf{XGBoost} hyperparameters in production use
+ \end{itemize}
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+\vspace{-0.75em}
+\item \textbf{Dream Presenter - RIT NXT:} {Used multiple EEG datasets to produce a GAN-style architecture in \textbf{PyTorch} that can generate images from dreams based on Sleeping State neural activity.}
+\item \textbf{SonicRL - EEEE-489 Final Project:} {Created CNN-based RL agent in \textbf{TensorFlow} that worked within a Sonic 1 emulator using pixels as input.
+Tasked with completing the first level using reward engineering, and tuning hyperparameters of DQN.}
+\end{rSection} 
+
+
+
+\end{document}
