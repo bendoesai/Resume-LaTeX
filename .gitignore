@@ -1,5 +1,14 @@
-*.aux
 *.fdb_latexmk
 *.fls
 *.log
 *.synctex.gz
+
+/resume/*.fdb_latexmk
+/resume/*.fls
+/resume/*.log
+/resume/*.synctex.gz
+
+/cover_letters/*.fdb_latexmk
+/cover_letters/*.fls
+/cover_letters/*.log
+/cover_letters/*.synctex.gz
