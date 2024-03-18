@@ -1,4 +1,4 @@
-\documentclass[10pt,article]{letter}
+\documentclass[10pt,letter]{letter}
 \usepackage[utf8]{inputenc}
 
 %====================
@@ -48,13 +48,15 @@
 %====================
 % Company Info
 %====================
-\def\hm{Stephanie Shiu} % Hiring Manager Name, leave empty if unknown
 \def\firstname{Stephanie}
+\def\lastname{Shiu}
+\def\hm{\firstname\ \lastname} % Hiring Manager Name, leave empty if unknown
+
 \def\hremail{sshiu@lanl.gov}
 \def\position{Staff Operations Manager} % position
 \def\company{Los Alamos National Laboratory} % company
 %\def\source{on LinkedIn} % where was the posting found, "I found ____ "
-\def\targetpos{Space Data Processing Post-Baccalaureate Student }
+\def\targetpos{Space Data Processing Post-Baccalaureate Student}
 
 % FULL SENTENCES
 %\def\companynews{I understand that \company\;was included in a "Best of Tech" list, and got a new influx of investor funding as a result.}
@@ -80,7 +82,7 @@
 \input{sections/closing}
 \input{sections/signoff} 
 
-\closing{Sincerely,}
+\closing{Thank you for your consideration,}
 \end{letter}
 
 \end{document}
