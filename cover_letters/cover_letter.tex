@@ -48,15 +48,18 @@
 %====================
 % Company Info
 %====================
-\def\firstname{Bill}
-\def\lastname{Scully}
-\def\hm{\firstname\ \lastname} % Hiring Manager Name, leave empty if unknown
+\def\firstname{Michelle}
+\def\lastname{Liu}
+\def\nameunknown{Hiring Manager}
+\def\hm{\nameunknown} % Hiring Manager Name, leave empty if unknown
 
-\def\hremail{wsscully@sei.cmu.edu}
+\def\hremail{hremail@email.com}
 \def\position{Recruiter, Software Engineering Institue} % position
-\def\company{the Software Engineering Institute at Carnegie Mellon University} % company
+\def\company{MIT Lincoln Labs} % company
+\def\compaddress{224 Wood St}
+\def\compcity{Lexington, MA 02421}
 %\def\source{on LinkedIn} % where was the posting found, "I found ____ "
-\def\targetpos{Assistant AI Security Researcher}
+\def\targetpos{Secure Software and Embedded Systems Engineer}
 
 % FULL SENTENCES
 %\def\companynews{I understand that \company\;was included in a "Best of Tech" list, and got a new influx of investor funding as a result.}
@@ -71,9 +74,9 @@
 %==================
 
 \begin{document}
-\begin{letter}{\hm \\ \hremail \\ \position \\ \company}
+\begin{letter}{\company \\ \compaddress \\ \compcity}
 
-\opening{Dear \firstname,}
+\opening{Dear Hiring Manager,}
 % Change \hm to "hiring manager" or equivalent in company if unknown
 
 \setlength\parindent{.5in}
